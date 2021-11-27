@@ -1,0 +1,32 @@
+{
+  "name": "gcode_compose",
+  "version": "0.0.1",
+  "description": "Compose gCode by hand",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "gCode",
+    "JavaScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3xpedia/gcode_compose.git"
+  },
+  "author": "Coclet Clément",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.5.0"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.test.js"
+    ]
+  }
+}
